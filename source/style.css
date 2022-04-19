@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif
+}
+
+.menu-item {
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    list-style-type: none;
+    padding: 5px;
+    background: grey;
+    color: ghostwhite;
+}
+
+.container {
+  display: flex;
+}
+
+.hover {
+    background: lightgray;
+}
+
+.selected{
+    background: white;
+    border-color: antiquewhite;
+    color: black;
+}
+
+#mapid { 
+    height: 180px; 
+}
+
